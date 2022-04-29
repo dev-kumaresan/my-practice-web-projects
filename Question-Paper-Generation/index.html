@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title> Create Question Paper </title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+<meta name="viewport" content="width=device-width, user-scalable=no">  
+</head>
+ <body bgcolor="grey">
+ <table class="tb1" bgcolor="darkgrey" width="100%" border="0">
+  <tr>
+  <td>
+  <h1 class="project"><marquee scrollamount="7">QUESTION PAPER GENERATION</marquee></h1></td></tr></table>
+     <br><br>
+     <table class="tb2" bgcolor="ghostwhite" width="100%" border="0">
+        <form name="createqn">
+        <td>
+         <h3 class="addqn"><font color="Red" size="5">Create Question Paper</font></h3>
+         <div class="fields">
+            College : <input type="text" id="college_name" placeholder="Enter College Name"><br><br>
+               Test : <input type="text" id="test" placeholder="Eg : 2nd CA Test"><br><br>
+               Date : <input type="text" id="date" placeholder="Eg : 8th May 2021"><br><br>
+         Department : <input type="text" id="department" placeholder="Eg : II MCA"><br><br>
+           Semester : <input type="text" id="semester" placeholder="Eg : (Fourth Semester)"><br><br>
+         Paper Code : <input type="text" id="papercode" placeholder="Eg : 19CAP26A"><br><br>
+            Subject : <input type="text" id="subject" placeholder="Eg : GREEN COMPUTING"><br><br>
+       Time of Exam : <input type="text" id="time" placeholder="Eg : Time:3 Hours"><br><br>
+      Maximum Marks : <input type="text" id="maxmarks" placeholder="Eg : Max: 100 Marks"><br><br>
+  </div>
+</td>
+<td> 
+<div class="fields1"> 
+            Section :  <select id = "myList1">  
+                        <option> Section-A </option>  
+                        <option> Section-I </option>  
+                       </select><br><br> 
+            </div>
+            <input type="button" class="button2" value="Add Questions" onclick="SecAqn()"/><br><br>
+            <div id="addqns" style="width:150px;height:150px;line-height:3em;overflow:scroll;padding:5px;">
+             </div><br><br>
+             <div class="fields2"> 
+            Section :  <select id = "myList2">  
+                        <option> Section-B </option>  
+                        <option> Section-II </option>  
+                       </select><br><br> 
+                      <input type="button" class="button3" value="Add Questions" onclick="SecBqn()"/><br><br>
+             </div>
+            <div id="addqns1" style="width:150px;height:150px;line-height:3em;overflow:scroll;padding:5px;">
+            </div><br><br>
+            <div class="buttons"> <button onclick="CreatePDF()"><span>PDF</span><span>Download</span></button></div>
+            <br><br><br>
+            </td> 
+        <td><div class="rst"><button type="reset" value="Reset"><span>Reset</span></div></td>
+        </tr>
+      </form>
+    </table>
+    <br><br><br><br><br><br><br><br><br><br><br>
+  </body>
+</html>
