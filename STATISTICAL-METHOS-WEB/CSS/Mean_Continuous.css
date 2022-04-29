@@ -1,0 +1,111 @@
+body
+{
+    background-color : black;
+    overflow-y : scroll;
+}
+table
+{
+   width : 100%;
+   height : 100%;
+}
+.td7
+{
+    background-color : ghostwhite;
+    width: 50%;
+}
+.td8
+{
+    background-color : black;
+}
+.heading
+{
+    text-align : center;
+    margin-top : -44%;
+}
+.link1
+{
+    margin-left : 85%;
+    margin-top : -8.5%;
+    font-weight : bolder;   
+}
+.div1
+{
+     margin-top : 7%;
+     margin-left : 15%;
+     width : 52%;
+     height : 3.5%;
+}
+.txt4
+{
+    margin-left : 45%;
+}
+.txt5
+{
+    margin-left : 5%;
+    margin-top : 5%;
+}
+.btn6
+{
+    margin-left : 12%;
+    margin-top : -6.2%;
+    width : 30%;
+    font-weight : bolder;
+}
+.btn7
+{
+    margin-left : 80%;
+    margin-top : -63.5%;
+    width : 30%;
+    font-weight : bolder;
+}
+.btn8
+{
+    margin-left : 55%;
+    margin-top : -22%;
+    width : 32%;
+    font-weight : bolder;
+}
+.btn9
+{
+    margin-left : 110%;
+    margin-top : -10%;
+    color : ghostwhite;
+    background-color :green;
+    font-weight : bolder;
+}
+#addlimits4
+{
+    margin-left : 3.5%;
+}
+#addlimits5
+{
+    margin-left : 75.5%;
+    
+}
+#addlimits6
+{
+    margin-left : 53%;
+    margin-top : -13%;
+}
+.Int1
+{
+    font-weight : bolder;
+    margin-left : 20%;
+}
+.Int2
+{
+    font-weight : bolder;
+    margin-left : 90%;
+    margin-top : -51.5%;
+}
+.video
+{
+    color : ghostwhite;
+    margin-top : -20%;
+    margin-left : 10%;
+}
+
+/* @media (max-width : 767px)
+{
+    
+} */
