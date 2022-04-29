@@ -1,0 +1,227 @@
+  body 
+    {
+           overflow : hidden;
+    }
+    .lf 
+     { 
+           margin-left : 10%; 
+           margin-top : 5%;
+     }
+    .project 
+     { 
+         color : grey; 
+         font-family : cursive; 
+         font-size : 30px; 
+         text-align : center; 
+     }
+    .head
+    {
+        
+        margin-left :20px;
+    }
+    .img1 
+    {
+        margin-left : -0%;
+    }
+    .addqn
+    {
+        margin-left : 19%;
+        margin-top : 5%;
+    }
+    #addqns
+    { 
+        position : fixed;
+        margin-left : -25%;
+        
+         
+    }
+    #addqns1
+    { 
+        position : fixed;
+        margin-left : -10%;
+        margin-top : -2px;
+         
+         
+    }
+    .button2 
+    { 
+        margin-left : -80%; 
+    }
+    .fields 
+    {
+        margin-left : 20%;
+        color : grey;
+        font-size : 17px;
+        font-weight : bold;
+    }
+    .fields1
+    {
+        margin-left : -80%;
+        margin-top : -47.1%;
+        color : grey;
+        font-size : 17px;
+        font-weight : bold;
+    }
+    .fields2
+    {
+        margin-left : -20%;
+        margin-top : -30.1%;
+          color : grey;
+        font-size : 17px;
+        font-weight : bold;
+    }
+    .rst { 
+          margin-top : -165%;
+          margin-left : -60%;
+           }
+     .buttons
+    {
+        margin-left : 45%;
+        margin-top : -79%;
+       	background: #ffffff;
+		border: solid 1px #e6e6e6;
+		border-radius: 2px;
+		display: inline-block;
+		height: 40px;
+		line-height: 40px;
+        position: relative;
+		text-align: center;
+		vertical-align: middle;
+		width: 100px;
+    }
+    .buttons span {
+		background: #f2594b;
+		border-radius: 4px;
+		color: #ffffff;
+		display: inline-block;
+		font-size: 11px;
+		font-weight: 700;
+		line-height: normal;
+		padding: 5px 10px;
+		position: relative;
+		text-transform: uppercase;
+		z-index: 1;
+}
+.buttons span:last-child {
+		margin-left: -20px;
+}
+.buttons:before,
+.buttons:after {
+		background: #ffffff;
+		border: solid 3px #9fb4cc;
+		border-radius: 4px;
+		content: '';
+		display: block;
+		height: 35px;
+		left: 50%;
+		margin: -17px 0 0 -12px;
+		position: absolute;
+		top: 50%;
+		/*transform:translate(-50%,-50%);*/
+		
+		width: 25px;
+}
+.buttons:hover:before,
+.buttons:hover:after {
+		background: #e2e8f0;
+}
+/*.buttons:before{transform:translate(-30%,-60%);}*/
+.buttons:before {
+		margin: -23px 0 0 -5px;
+}
+.buttons:hover {
+		background: #e2e8f0;
+		border-color: #9fb4cc;
+}
+.buttons:active {
+		background: #dae0e8;
+		box-shadow: inset 0 2px 2px rgba(0, 0, 0, .25);
+}
+.buttons span:first-child {
+		display: none;
+}
+.buttons:hover span:first-child {
+		display: inline-block;
+}
+
+.buttons:hover span:last-child {
+		display: none;
+}
+@media (max-width : 767px)
+{
+        body
+        {
+              background-color : grey;
+              overflow-x : hidden;
+              overflow-y : scroll;
+    
+        }
+        .tb1
+        {
+            width : 102%;
+            margin : 0 auto;
+        }
+        .project
+        {
+            font-family : Times;
+            font-size : 20px;
+        }
+        .tb2 
+        {
+            margin-top : -10%;
+            width : 200%;
+            
+        }
+        .fields
+        {
+            margin-left : 1%;
+        }
+        .addqn
+        {
+            margin-left : 1%;
+            margin-top : -130%;
+        }
+        .fields1
+        {
+            margin-top : 240%;
+            margin-left : -200%;
+        }
+        .button2
+        {
+            margin-left : -190%;
+        }
+        .button3
+        {
+            margin-left : 5%;
+        }
+        #addqns
+        {
+            margin-left : -100%;
+            position: absolute;
+            overflow: scroll;
+            -webkit-overflow-scrolling: touch;
+        }
+        .fields2
+        {
+            margin-top : 70%;
+            margin-left : -200%;
+        }
+        #addqns1
+        {
+            margin-left : -100%;
+            position: absolute;
+            overflow: scroll;
+            -webkit-overflow-scrolling: touch;
+        }
+        .buttons
+        {
+            margin-top :  80%;
+            margin-left :  -190%;
+        }
+        .rst{
+            margin-top : 1700%;
+            margin-left : -800%;
+            
+        }
+     
+}
