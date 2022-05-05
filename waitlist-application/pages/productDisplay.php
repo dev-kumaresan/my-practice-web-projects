@@ -10,7 +10,7 @@
 <table border="0" width="100%">
     <tr>
      <td>
-<img class="product" src="http://localhost:8081/project/waitlist_app/img/product_img.jpg" height="300" width="300"/>
+<img class="product" src="http://localhost/waitlist-application/img/product_img.jpg" height="300" width="300"/>
 <center>
 <h2><font color="green">iPhone 13 128GB Midnight</font></h2>
 <h5><b>₹79,900.00 INR*· In stock !</b></h5>
@@ -51,7 +51,7 @@ if($flag==0)
 else
 {
    echo "<h2 align='center'>Your in ".$position." position <font color='red'> </h2> <br>";
-    $url = "http://localhost:8081/project/waitlist_app/php/pages/show_product.php?ref=".$unqID."-".$referralID;
+    $url = "http://localhost/waitlist-application/php/pages/show_product.php?ref=".$unqID."-".$referralID;
     echo "<font color='darkblue'>".$url."</font>";   
     
 }

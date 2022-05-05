@@ -21,7 +21,7 @@ if(isset($_COOKIE["ref"]))
                     echo $decrement ."</br>";
                     if ($con->query($decrement) === TRUE) 
                     {
-                       header("Location: http://localhost:8081/project/waitlist_app/signup.html");
+                       header("Location: http://localhost/waitlist-application/signup.html");
                     } 
                     else 
                     {
@@ -149,10 +149,10 @@ else{
       $stmt->bind_param("sssssi",$email,$password,$name,$unique,$referral,$position);
       $stmt->execute();
       echo "<alert>Signup done!</alert>";
-      header("Location:http://localhost:8081/project/waitlist_app/");
+      header("Location:http://localhost/waitlist-application/");
      } else {
       echo "<alert>Someone already register using this email!</alert>";
-      header("Location:http://localhost:8081/project/waitlist_app/signup.html");
+      header("Location:http://localhost/waitlist-application/signup.html");
      }
      $stmt->close();
      $conn->close();

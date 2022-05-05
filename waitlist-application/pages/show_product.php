@@ -50,7 +50,7 @@
                         echo $decrement ."</br>";
                         if ($con->query($decrement) === TRUE) 
                         {
-                           header("Location: http://localhost:8081/project/waitlist_app/signup.html");
+                           header("Location: http://localhost/waitlist-application/signup.html");
                         } 
                         else 
                         {
