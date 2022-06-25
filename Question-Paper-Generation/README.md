@@ -4,7 +4,7 @@
    * HTML
    * CSS
    * Javascript.<br><br>
-### UI (Screenshots) -<br>
+### UI (Screenshots) -<br> 
                                           Mobile View -
    
    ![1](https://user-images.githubusercontent.com/69623210/130621842-546f11ca-360d-4f7b-baa5-8041966f7811.PNG)
